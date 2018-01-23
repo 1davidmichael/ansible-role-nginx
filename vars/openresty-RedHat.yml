@@ -1,0 +1,12 @@
+---
+root_group: root
+nginx_conf_path: /usr/local/openresty/nginx/conf.d
+nginx_conf_file_path: /usr/local/openresty/nginx/conf/nginx.conf
+nginx_mime_file_path: /usr/local/openresty/nginx/conf/mime.types
+nginx_pidfile: /usr/local/openresty/nginx/logs/nginx.pid
+nginx_vhost_path: /usr/local/openresty/nginx/sites-enabled
+nginx_default_vhost_path: /usr/local/openresty/nginx/sites-enabled/default
+__nginx_user: "nobody"
+nginx_error_log: /usr/local/openresty/nginx/logs/error.log
+nginx_access_log: /usr/local/openresty/nginx/logs/access.log
+nginx_package_name: openresty

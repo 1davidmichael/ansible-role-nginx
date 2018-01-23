@@ -148,6 +148,10 @@ Configures Nginx's [`log_format`](http://nginx.org/en/docs/http/ngx_http_log_mod
 
 (For RedHat/CentOS only) Set this to `false` to disable the installation of the `nginx` yum repository. This could be necessary if you want the default OS stable packages, or if you use Satellite.
 
+    nginx_flavor: openresty
+
+(For RedHat/CentOS only) Switches to use the OpenResty superset of the Nginx web server
+
 ## Overriding configuration templates
 
 If you can't customize via variables because an option isn't exposed, you can override the template used to generate the virtualhost configuration files or the `nginx.conf` file.
